@@ -25,11 +25,9 @@ function draw() {
   for (i=0; i<100; i++){
     let s = i % num_points;
     let e = (i*grade) % num_points;
-    stroke(200,100,100);
     line(points_x[s], points_y[s], points_x[e], points_y[e]);
   }
 
-  stroke(0);
   fill(255,0,0);
   for (i=0; i<num_points; i++){
     let x_e = 10; let y_e = 20;
