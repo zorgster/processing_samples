@@ -34,8 +34,8 @@ function draw() {
   for (i=0; i<num_points; i++){
     let x_e = 10; let y_e = 20;
     circle(points_x[i], points_y[i], point_r);
-    if (points_x[i] > 200) { x_e = 10} else if(points_x[i]<200){ x_e = -10 } else { x_e = 0};
-    if (points_y[i] > 200) { y_e = 10} else if(points_y[i]<200){ y_e = -10 } else { y_e = 0 };
+    if (points_x[i] > center_x) { x_e = 10} else if(points_x[i]<center_x){ x_e = -10 } else { x_e = 0};
+    if (points_y[i] > center_y) { y_e = 10} else if(points_y[i]<center_y){ y_e = -10 } else { y_e = 0 };
     text(i+1, points_x[i] + x_e, points_y[i] + y_e);
   }
 
