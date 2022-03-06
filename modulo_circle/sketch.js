@@ -42,5 +42,5 @@ function draw() {
   fill(255,0,0);
   text(grade, center_x, center_y);
 
-  grade = map(mouseX, 0, 1, width, 1024);
+  grade = map(mouseX, 0, width, 1, 1024);
 }
