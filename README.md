@@ -6,3 +6,5 @@
 
 [Modulo Circle](https://zorgster.github.io/processing_samples/modulo_circle) - Created just after watching a video on Tesla 3-6-9 - altered to respond to the mouse X position
 
+[Modulo Circle Sound](https://zorgster.github.io/processing_samples/modulo_circle_sound) - Modification of Modulo Circle that changes the modulus based on the frequency of the sound - requires microphone access 
+
