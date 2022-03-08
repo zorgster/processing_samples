@@ -12,17 +12,18 @@ function setup() {
   angleMode(DEGREES);
 
   createCanvas(windowWidth,windowHeight);
+  center_x = windowWidth/2;
+  center_y = windowHeight/2;
   mic = new p5.AudioIn();
   mic.start();
   fft = new p5.FFT();
   fft.setInput(mic);
   amplitude = new p5.Amplitude();
 
-  createCanvas(600, 600);
   textAlign(CENTER, CENTER);
   for (i=0; i<num_points; i++){
     points_x[i] = center_x + radius*sin(i*360/num_points);
-    points_y[i] = center_x - radius*cos(i*360/num_points);
+    points_y[i] = center_y - radius*cos(i*360/num_points);
   }
 }
 
