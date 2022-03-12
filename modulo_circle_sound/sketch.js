@@ -28,7 +28,7 @@ function setup() {
 }
 
 function draw() {
-  var spectrum = fft.analyze();
+  let spectrum = fft.analyze();
   let freq = floor(map(spectrum[10], 0, 255, 1, 1000));
 
   background(220);
