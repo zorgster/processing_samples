@@ -11,7 +11,8 @@ function setup() {
   colorMode(HSB,100);
   angleMode(DEGREES);
 
-  createCanvas(windowWidth,windowHeight);
+  let cnv = createCanvas(windowWidth,windowHeight);
+  cnv.mouseClicked(togglePlay)
   center_x = windowWidth/2;
   center_y = windowHeight/2;
   mic = new p5.AudioIn();
@@ -51,4 +52,12 @@ function draw() {
     if (points_y[i] > center_y) { y_e = 10} else if(points_y[i]<center_y){ y_e = -10 } else { y_e = 0 };
   }
 
+}
+
+function togglePlay() {
+  if (sound.isPlaying()) {
+    sound.pause();
+  } else {
+    sound.loop();
+  }
 }
