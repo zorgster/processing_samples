@@ -14,6 +14,9 @@ let pore_start = 400; let pore_width = 200;
 // The statements in the setup() function 
 // execute once when the program begins
 function setup() {
+  createCanvas(1000, 800);
+  angleMode(DEGREES);
+  textAlign(CENTER, CENTER);
   size(1000, 800);  // Size must be the first statement
   stroke(0);     // Set line drawing color to white
   frameRate(30);
