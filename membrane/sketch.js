@@ -6,7 +6,7 @@
  */
 
 let y = 350; let y1 = 100;
-let lipid_dia = 30;
+let lipid_dia = 20;
 let lipid_l1 = 17; let lipid_l1a = 3; let lipid_l2 = 10;
 let lipid_spacing = 5; let layer_spacing = 3;
 let pore_start = 400; let pore_width = 200;
