@@ -19,7 +19,6 @@ function setup() {
   textAlign(CENTER, CENTER);
   size(1000, 800);  // Size must be the first statement
   stroke(0);     // Set line drawing color to white
-  frameRate(30);
   background(255);
 }
 
