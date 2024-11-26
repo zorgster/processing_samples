@@ -53,5 +53,4 @@ function draw() {
     line(x - 3, y + lipid_dia / 2 + lipid_l1 * 2 + lipid_l1a * 2 - lipid_l2 + layer_spacing, x - 2, y + lipid_dia / 2 + lipid_l1 * 2 + lipid_l1a * 2 + layer_spacing);
     circle(x, y + lipid_dia + lipid_l1 * 2 + lipid_l1a * 2 + layer_spacing, lipid_dia);
   }
-  stop();
 } 
